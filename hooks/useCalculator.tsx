@@ -150,11 +150,11 @@ export const useCalculator = () => {
   };
 
   const toggleSign = () => {
-    if (number.startsWith("-")) {
-      return setNumber(number.replace("-", ""));
+    if (prevNumber.startsWith("-")) {
+      return setNumber(prevNumber.replace("-", ""));
     }
 
-    return setNumber(`-${number}`);
+    return setNumber(`-${prevNumber}`);
   };
 
   return {
