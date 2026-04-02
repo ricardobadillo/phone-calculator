@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "calculator",
-    "slug": "calculator",
+    "name": "phone-calculator",
+    "slug": "phone-calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "calculatorapp",
+    "scheme": "phone-calculator",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -16,7 +16,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": false
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",

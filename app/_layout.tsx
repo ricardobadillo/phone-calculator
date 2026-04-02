@@ -1,7 +1,7 @@
 import { Platform, View } from "react-native";
 
 import { useFonts } from "expo-font";
-import { setBackgroundColorAsync } from "expo-navigation-bar";
+import { setButtonStyleAsync } from "expo-navigation-bar";
 import { Slot } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 
@@ -10,7 +10,7 @@ import { globalStyles } from "@/styles/global-styles";
 const isAndroid = Platform.OS === "android";
 
 if (isAndroid) {
-  setBackgroundColorAsync("black");
+  setButtonStyleAsync("light");
 }
 
 export default function RootLayout() {
